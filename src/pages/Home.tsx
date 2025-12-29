@@ -100,7 +100,7 @@ const Home: React.FC = () => {
             {/* Brand Ticker with Logoipsum Logos */}
             <section className="brand-ticker">
                 <div className="ticker-wrapper">
-                    {[211, 212, 213, 214, 215, 216, 211, 212, 213, 214, 215, 216].map((logoId, index) => (
+                    {[245, 246, 247, 248, 249, 250, 245, 246, 247, 248, 249, 250].map((logoId, index) => (
                         <img
                             key={index}
                             src={`https://img.logoipsum.com/${logoId}.svg`}
